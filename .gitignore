@@ -1,0 +1,27 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local by Flywheel specific
+local.sql
+*.zip
+*.tar.gz
+*.sql
+
+# Ignore uploads (optional)
+wp-content/uploads/
+
+# Ignore cache & backups
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# Optional: npm/node stuff
+node_modules/
+npm-debug.log
+package-lock.json
+
